@@ -8,6 +8,26 @@
 #include "raymath.h"
 #include <math.h>
 
+/* Function checks if both values are in the same order of magnitude and will 
+redefine the smaller value in the same order of magnitude as the larger value */
+float sciNotNorm(float xMag, float yMag, int xNot, int yNot) {
+
+   /* local variable declaration */
+    float l;
+    int diff;
+    
+    l = max(xNot, yNot);
+    diff = abs(xNot - yNot);
+    
+    if (diff = 0)
+        return (xMag, yMag, l);
+    else
+        if (l = yNot)
+            xMag = xMag / (pow(10,diff);
+        else
+            yMag = yMag / (pow(10,diff);
+    return (xMag, yMag, l)
+}
 
 typedef struct sciNot {
     float value;
