@@ -1,3 +1,3 @@
 # nbody-raylib
-Melvin Cheng
-Morgan Li
+## Melvin Cheng
+## Morgan Li
